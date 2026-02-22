@@ -1,0 +1,13 @@
+# ============================================================================
+# Frontend Dependencies for AI PPT Research Web App
+# ============================================================================
+# This file lists all Python packages required to run the Streamlit frontend
+
+# Core framework
+streamlit>=1.31.0        # Main UI framework for building the web interface
+
+# HTTP requests
+requests>=2.31.0         # For making API calls to the backend
+
+# Additional utilities (optional but recommended)
+python-dotenv>=1.0.0     # For loading environment variables from .env file

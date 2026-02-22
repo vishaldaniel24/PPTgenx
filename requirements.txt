@@ -1,0 +1,18 @@
+# =============================================================================
+# NeuraDeck - ALL dependencies (backend + frontend)
+# Install once: pip install -r requirements.txt
+# =============================================================================
+
+# ----- Backend: FastAPI + Gemini + PPT -----
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-pptx>=0.6.23
+pydantic>=2.10.0
+google-generativeai>=0.8.0
+tavily-python>=0.5.0
+matplotlib>=3.8.0
+
+# ----- Frontend: Streamlit -----
+streamlit>=1.31.0
+requests>=2.31.0
+python-dotenv>=1.0.0
